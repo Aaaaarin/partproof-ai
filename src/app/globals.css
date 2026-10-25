@@ -2157,8 +2157,7 @@ select {
 .report-model > img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center 58%;
+  object-fit: contain;
 }
 .report-model > span {
   position: absolute;
@@ -3513,7 +3512,7 @@ select {
     max-width: none;
     background: white;
     zoom: 0.85;
-    width: 117.647%;
+    width: 100%;
   }
   .report-header {
     margin-top: 0;
